@@ -1,3 +1,6 @@
+// first , we need to find the indegree because we need to find the nodes from where the graph is originating
+// we always push a node with indegree = 0 to the queue with the the process of applying bfs
+// tpsort is generally a process of sorting nodes using the indegree values.
 class Solution
 {
 	public:
