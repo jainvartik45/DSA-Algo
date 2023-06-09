@@ -1,3 +1,6 @@
+// onthe process of applying bfs to all the componenets
+// We check if we are getting any node whose adj is vis and it is not a parent node
+// if the above condition satisfies we conclude graph has a cycle in it
 class Solution {
   public:
     // Function to detect cycle in an undirected graph.
